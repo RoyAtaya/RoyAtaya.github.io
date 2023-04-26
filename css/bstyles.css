@@ -11,8 +11,26 @@
     width: 30px;
     height: 30px;
 }
-/********************************************* ID Selectors **********************************************/
-#headshot{
+.headshot{
     width: 200px; 
     height: 200px;
+    /* margin: auto; */
+}
+
+.summary_container{
+    background-color: brown;
+}
+
+.summary_col{
+   background-color: yellow; 
+   border: 1px solid black;
+}
+
+/********************************************* ID Selectors **********************************************/
+#summary{
+    margin: 25;
+}
+
+#skills{
+    margin: 25;
 }
