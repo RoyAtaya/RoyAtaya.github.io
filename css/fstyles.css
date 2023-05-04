@@ -8,7 +8,7 @@
 
 .container{
     display: grid;
-    grid-template-rows: repeat(7, 0.25fr);
+    grid-template-rows: 0.35fr 0.20fr repeat(5, 0.25fr);
     gap: 20px;
 }
 
@@ -46,6 +46,11 @@
     width: 30px;
     height: 30px;
 }
+.projects h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 
 .project-date{
     font-size: 75%;
@@ -63,6 +68,7 @@
 
 .skills h1{
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
