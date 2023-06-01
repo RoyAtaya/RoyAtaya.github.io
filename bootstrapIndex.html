@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Roy Ataya</title>
+        <link rel="icon" href="images/logo.svg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/bstyles.css">
@@ -10,7 +11,7 @@
         <!-- Nav Bar -->
         <section id="title">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand ms-5 my-2" href="https://royataya.github.io/index.html">
+                <a class="navbar-brand ms-4 my-2" href="https://royataya.github.io/index.html">
                     <img src="images/logo.svg" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,7 @@
                             <a class="nav-link" href="">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contact</a>
+                            <a class="nav-link" href="mailto:roy.ataya@hotmail.ca">Contact</a>
                         </li>
                     </ul>
                     <a class="btn btn-outline-primary ms-2 me-4" href="resume/RoyAtayaResume.pdf" target="_blank">Resume</a>
@@ -39,25 +40,266 @@
             </nav>
         </section>
 
-
         <section id="summary">
-            <h1>Roy Ataya</h1>
-            <img id="headshot" src="images/Roy.png" alt="Roy.png">
-            <h2>Systems Engineer</h2>
-            <p>A quick summary about myself: I have 2 bachelors degrees, the first in Molecular Biology and Biochemistry and the second in Systems Engineering, both from Simon Fraser University in British Columbia, Canada. I am passionate about software development because it allows me to use my creative skills to design innovative and novel solutions to problems. I am a backend developer that dabbles in iOS/macOS development and primarily code in C++, Python and Swift. I am learning: C#, HTML, JavaScript, CSS, Rust and Google Cloud Platform.</p>
-            <a href="https://www.linkedin.com/in/roy-ataya/" style="text-decoration:none">
-                <img src="images/linkedin.png" class = "social_image">
-            </a>
-            <a href="https://github.com/RoyAtaya" style="text-decoration:none">
-                <img src="images/github.png" class="social_image">
-            </a>
+            <div class="container-fluid summary_container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6 d-flex align-items-center justify-content-center summary_col">
+                        <img class="mx-auto d-block headshot" src="images/Roy.png" alt="Roy.png">
+                    </div>
+                    <div class="col-lg-10 col-md-8 col-sm-6 summary_col">
+                        <h1>Roy Ataya</h1>
+                        <h2>Systems Engineer</h2>
+                        <h6>About me</h6>
+                        <p>I have 2 bachelors degrees, the first in Molecular Biology and Biochemistry and the second in Systems Engineering, both from Simon Fraser University in British Columbia, Canada. I am passionate about software development because it allows me to use my creative skills to design innovative and novel solutions to problems. I am a backend developer that dabbles in iOS/macOS development and primarily code in C++, Python and Swift. I am teaching myself: C#, HTML, JavaScript, CSS, Rust and Google Cloud Platform.</p>
+                        <a href="https://www.linkedin.com/in/roy-ataya/" style="text-decoration:none">
+                            <img src="images/linkedin.png" class = "social_image">
+                        </a>
+                        <a href="https://github.com/RoyAtaya" style="text-decoration:none">
+                            <img src="images/github.png" class="social_image">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="skills"></section>
-        <section id="professional_experience"></section>
-        <section id="projects"></section>
-        <section id="education"></section>
 
-        <a href="index.html">Main page</a>
+        <section id="skills">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">Programming</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">C/C++</li>
+                    <li class="list-group-item">Python</li>
+                    <li class="list-group-item">MATLAB</li>
+                    <li class="list-group-item">Swift</li>
+                    <li class="list-group-item">Apex</li>
+                    <li class="list-group-item">T-SQL</li>
+                    <li class="list-group-item">SQL</li>
+                    <li class="list-group-item">C#</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">Tools</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Jira</li>
+                    <li class="list-group-item">Git</li>
+                    <li class="list-group-item">Postgres</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">Frameworks</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">SwiftUI</li>
+                    <li class="list-group-item">UIKit</li>
+                    <li class="list-group-item">MediaPipe/BlazePose</li>
+                    <li class="list-group-item">Apex test framework</li>
+                    <li class="list-group-item">Core Data</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">IDEs</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Xcode</li>
+                    <li class="list-group-item">Visual Studio Code</li>
+                    <li class="list-group-item">Visual Studio</li>
+                    <li class="list-group-item">CLion</li>
+                    <li class="list-group-item">PyCharm</li>
+                    <li class="list-group-item">IntelliJ IDEA</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">Operating Systems</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Windows</li>
+                    <li class="list-group-item">macOS</li>
+                    <li class="list-group-item">Linux (Ubuntu)</li>
+                    <li class="list-group-item">Linux (WSL)</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">Other</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Object-oriented programming</li>
+                    <li class="list-group-item">Agile/Scrum</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- <section id="skills">
+            <ul>
+                <li>
+                    <strong>Programming:</strong>
+                    <ul><li>C/C++, Python, MATLAB, Swift, Apex, T-SQL, SQL, C#</li></ul>
+                </li>
+                <li>
+                    <strong>Tools:</strong>
+                    <ul><li>Jira, Git, Postgres</li></ul>
+                </li>
+                <li>
+                    <strong>Frameworks:</strong>
+                    <ul><li>SwiftUI, UIKit, MediaPipe/BlazePose, Apex test framework, Core Data</li></ul>
+                </li>
+                <li>
+                    <strong>IDEs:</strong>
+                    <ul><li>Xcode, Visual Studio Code, Visual Studio, CLion, PyCharm, IntelliJ IDEA</li></ul>
+                </li>
+                <li>
+                    <strong>Operating Systems:</strong>
+                    <ul><li>Windows, macOS, Linux (Ubuntu), Linux (WSL)</li></ul>
+                </li>
+                <li>
+                    <strong>Other:</strong>
+                    <ul><li>Object-oriented programming, Agile/Scrum</li></ul>
+                </li>
+            </ul>
+        </section> -->
+
+        <section id="professional_experience">
+            <ul>
+                <li>
+                    <strong>Developer Intern</strong>, Salesforce - Traction on Demand
+                    <br>
+                    Jan 2021 – Aug 2021 | Burnaby, BC, Canada
+                    <ul>
+                        <li>Designed and implemented a brand new login and self registration
+                        component for an Experience Cloud webpage using Apex; that enhanced
+                        customer satisfaction and site usability.</li>
+                        <li>Created comprehensive unit tests using the Apex testing framework to
+                        ensure high product quality and minimize bugs; resulting in 92% tested
+                        code coverage.</li>
+                        <li>Collaborated with technical consultants and product owners to improve
+                        message board comment system using Apex, that resulted in enhanced
+                        customer experience.</li>
+                        <li>Refactored 2 code bases to create multiple reusable packages, that led to
+                        increased internal efficiency.</li>
+                        <li>Developed code to consume REST APIs.</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Research Engineering Assistant</strong>, Simon Fraser University
+                    <br>
+                    May 2019 – Aug 2019 | Burnaby, BC, Canada
+                    <ul>
+                        <li>Designed a custom PCB using EasyEDA based on an Arduino UNO
+                            microcontroller and Arduino Ethernet Shield, in a team of 2.</li>
+                        <li>Implemented C++ & Python software packages allowing website control
+                            of the Arduino UNO via the internet in 2 weeks.</li>
+                        <li>Developed encryption/decryption scripts to enhance data security, for the
+                            website and the custom PCB, by 100%.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <ul>
+                <li>
+                    <strong>Personal website</strong>
+                    <br>
+                    Mar 2023 – present
+                    <ul>
+                        <li>Developing a personal website using HTML, JS, and CSS.</li>
+                        <li>Utilizing Bootstrap 5.3 framework</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>macOS Recipe App</strong>
+                    <br>
+                    Dec 2022 – present
+                    <ul>
+                        <li>Developing a macOS application with Swift to enable creative culinary
+                            experiences, allowing users to store and randomly select recipes.</li>
+                        <li>Designing an intuitive user experience by creating Graphical User
+                            Interface (GUI) through SwiftUI.</li>
+                        <li>Implementing persistent storage using Core Data.</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Body Stress Inference</strong>
+                    <br>
+                    Aug 2022
+                    <ul>
+                        <li>Created a motion capture tool to recognize hazardous poses, applying
+                            Python, Unity and ergonomic standards in a 3-person team.</li>
+                        <li>Established real-time user data capture using Mediapipe/BlazePose
+                            framework.</li>
+                        <li>Developed an analytical tool utilizing the REBA process to measure stress
+                            levels and recommend necessary changes, with a 95% accuracy.</li>
+                        <li>Rendered user’s motions on a Unity rig model, with colour-coded joints
+                            indicating various risk levels.</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Scoliosis Brace Optimization System</strong>
+                    <br>
+                    Jan 2022 - Aug 2022
+                    <ul>
+                        <li>Worked in a team of 6 to win the ICAMES 2022 engineering competition
+                            Best Project In General Award.</li>
+                        <li>Lead the electrical team to design a custom PCB for our firmware to run
+                            on and to control the pressure sensing system, using EasyEDA.</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Deepfake Detector</strong>
+                    <br>
+                    Sep 2020 - Dec 2020
+                    <ul>
+                        <li>Trained a deep learning model, in Python, to detect deepfakes of human faces using co-occurrence matrices, in a team of 3.</li>
+                        <li>Achieved a 90% accuracy on fake images, 94.6% accuracy with real
+                        images and total accuracy of 92.3%.</li>
+                        <li>Harnessed numpy, Keras, Tensorflow and OpenCV libraries to develop
+                        the model.</li>
+                        <li>Wrote a script to evaluate the trained model on a set of test images.</li>
+                        <li>Collaborated with colleagues effectively using scrum principles.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <ul>
+                <li>
+                    Bachelor of Applied Science - Systems Engineering,
+                    <ul>
+                        <li>Simon Fraser University Sep 2017 – Aug 2022</li>
+                        <li>Burnaby, BC, Canada</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    Certificate of Genomics, 
+                    <ul>
+                        <li>Simon Fraser University Sep 2015 – Apr 2017</li>
+                        <li>Burnaby, BC, Canada</li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    Bachelor of Science Molecular Biology and Biochemistry
+                    <ul>
+                        <li>Simon Fraser University Sep 2011 – Apr 2017</li>
+                        <li>Burnaby, BC, Canada</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="footer">
+            Copyright © 2023 Roy Ataya. All rights reserved.
+            <a href="index.html">Main page</a>
+            <a href="credits.html">Credits</a>
+            <a href="contact-me.html">Contact me</a>
+        </section>
     </body>
 </html>
