@@ -1,38 +1,237 @@
 /********************************************* Tag Selectors *********************************************/
-body {
-    background-color: #f5f5f5;
-    font-family: sans-serif;
-}
-hr{
-    width: 10%;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    border-color:  #333;
-}
-h1{
-    color: #4078c0;
-}
-h3{
-    color: #4078c0;
-}
+
 /******************************************** Class Selectors ********************************************/
-.resume{
-    border: 2px #4078c0 solid;
-    border-radius: 3px;
-    padding: 5px;
-    color: #4078c0;
-    text-decoration: none;
+.logo{
+    width: 50px;
+    height: 50px;
 }
 
+body{
+    background-color: #4c5a66;
+    color: whitesmoke;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 0.35fr 0.20fr repeat(5, 0.25fr);
+    gap: 20px;
+}
+
+.landing-container{
+    display: grid;
+    text-align: center;
+    gap: 0px;
+}
+
+.landing-container > *{
+    margin: 0;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container .head-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot{
+    height: 400px;
+    border-radius: 5%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
 .social_image{
-    position: relative;
-    top: 2px;
     width: 30px;
     height: 30px;
 }
+.projects h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project-date{
+    font-size: 75%;
+    color: dimgrey;
+}
+
+.language-icons{
+    height: 50px;
+    padding-right: 5px;
+}
+
+.skills h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 0.75fr 0.75fr 0.5fr 0.75fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.language-header{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.framework-header{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.tool-header{
+    grid-column: 3;
+    grid-row: 1;
+}
+.database-header{
+    grid-column: 4;
+    grid-row: 1;
+}
+.OS-header{
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.language-icon1{
+    grid-column: 1;
+    grid-row: 2;
+}
+.language-icon2{
+    grid-column: 1;
+    grid-row: 3;
+}
+.language-icon3{
+    grid-column: 1;
+    grid-row: 4;
+}
+.language-icon4{
+    grid-column: 1;
+    grid-row: 5;
+}
+.language-icon5{
+    grid-column: 1;
+    grid-row: 6;
+}
+.language-icon6{
+    grid-column: 1;
+    grid-row: 7;
+}
+.language-icon7{
+    grid-column: 1;
+    grid-row: 8;
+    font-size: x-large;
+}
+.language-icon8{
+    grid-column: 1;
+    grid-row: 9;
+}
+.language-icon9{
+    grid-column: 1;
+    grid-row: 10;
+    font-size: x-large;
+}
+
+.framework-icon1{
+    grid-column: 2;
+    grid-row: 2;
+}
+.framework-icon2{
+    grid-column: 2;
+    grid-row: 3;
+}
+.framework-icon3{
+    grid-column: 2;
+    grid-row: 4;
+}
+.framework-icon4{
+    grid-column: 2;
+    grid-row: 5;
+    font-size: x-large;
+    text-align: center;
+}
+.framework-icon5{
+    grid-column: 2;
+    grid-row: 6;
+    font-size: x-large;
+}
+.framework-icon6{
+    grid-column: 2;
+    grid-row: 7;
+    font-size: x-large;
+}
+
+.tool-icon1{
+    grid-column: 3;
+    grid-row: 2;
+}
+.tool-icon2{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.database-icon1{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.OS-icon1{
+    grid-column: 5;
+    grid-row: 2;
+}
+.OS-icon2{
+    grid-column: 5;
+    grid-row: 3;
+}
+.OS-icon3{
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.Experience{
+    /* TODO : remove */
+    background-color: #f0d9b5;
+    text-align: center;
+    font-size: 100px;
+}
+
+.c6{
+    /* TODO : remove */
+    background-color: #b58863;
+    text-align: center;
+    font-size: 100px;
+}
+
+.c7{
+    /* TODO : remove */
+    background-color: #f0d9b5;
+    text-align: center;
+    font-size: 100px;
+}
+
 /********************************************* ID Selectors **********************************************/
-#headshot{
-    width: 200px; 
-    height: 200px;
+#landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 55vh; */
+}
+
+#footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #292929df;
+    color: white;
+    display: flex;
+    justify-content: center;
 }

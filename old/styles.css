@@ -1,0 +1,38 @@
+/********************************************* Tag Selectors *********************************************/
+body {
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+hr{
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color:  #333;
+}
+h1{
+    color: #4078c0;
+}
+h3{
+    color: #4078c0;
+}
+/******************************************** Class Selectors ********************************************/
+.resume{
+    border: 2px #4078c0 solid;
+    border-radius: 3px;
+    padding: 5px;
+    color: #4078c0;
+    text-decoration: none;
+}
+
+.social_image{
+    position: relative;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+}
+/********************************************* ID Selectors **********************************************/
+#headshot{
+    width: 200px; 
+    height: 200px;
+}
