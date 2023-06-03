@@ -6,6 +6,11 @@
     height: 50px;
 }
 
+body{
+    background-color: #4c5a66;
+    color: whitesmoke;
+}
+
 .container{
     display: grid;
     grid-template-rows: 0.35fr 0.20fr repeat(5, 0.25fr);
@@ -60,10 +65,6 @@
 .language-icons{
     height: 50px;
     padding-right: 5px;
-}
-
-.skills{
-    background-color: #b58863;
 }
 
 .skills h1{
@@ -197,22 +198,7 @@
     grid-row: 4;
 }
 
-.c1{
-    /* TODO : remove */
-    background-color: #f0d9b5;
-}
-
-.c2{
-    /* TODO : remove */
-    background-color: #b58863;
-}
-
-.c3{
-    /* TODO : remove */
-    background-color: #f0d9b5;
-}
-
-.c5{
+.Experience{
     /* TODO : remove */
     background-color: #f0d9b5;
     text-align: center;
@@ -239,4 +225,13 @@
     justify-content: center;
     align-items: center;
     /* height: 55vh; */
+}
+
+#footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #292929df;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
